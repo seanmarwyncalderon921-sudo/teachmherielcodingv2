@@ -12,5 +12,10 @@
     { "src": "manifest.json", "use": "@vercel/static" },
     { "src": "*.svg", "use": "@vercel/static" },
     { "src": "*.png", "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "src": "/api/ai", "dest": "/api/ai.js" },
+    { "src": "/api/ai.js", "dest": "/api/ai.js" },
+    { "handle": "filesystem" }
   ]
 }
