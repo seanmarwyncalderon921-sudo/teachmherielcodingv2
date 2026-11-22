@@ -1,0 +1,27 @@
+{
+  "id": "./",
+  "name": "ProjectTeachMherielCoding",
+  "short_name": "MherielCode",
+  "description": "A free, gentle coding path made with love for Mheriel.",
+  "lang": "en",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#0b1b28",
+  "theme_color": "#0b1b28",
+  "categories": ["education", "productivity"],
+  "icons": [
+    {
+      "src": "./app-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    { "name": "Learning path", "url": "./", "description": "Pick up a lesson" },
+    { "name": "Sandbox", "url": "./#sandbox", "description": "Try a code idea" }
+  ]
+}

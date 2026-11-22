@@ -1,0 +1,1 @@
+{"name":"projectteachmherielcoding","private":true,"type":"module","scripts":{"start":"node server.js"},"dependencies":{"firebase":"^13.4.0"}}
